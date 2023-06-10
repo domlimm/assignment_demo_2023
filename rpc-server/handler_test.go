@@ -30,7 +30,7 @@ func TestIMServiceImpl_Send(t *testing.T) {
 						Text:     "Hello John, wick...",
 						Sender:   "jane",
 						SendTime: time.Now().Unix(),
-					}
+					},
 				},
 			},
 			wantErr: nil,
